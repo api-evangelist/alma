@@ -1,22 +1,55 @@
 aid: alma
 name: Alma
-description: 'Alma is a company surfaced as a portfolio company of forerunner-ventures, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: health. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Alma is a technology-enabled U.S. immigration law firm for companies and
+  individuals, combining licensed immigration attorneys with a platform that
+  learns from every case it files. Alma takes end-to-end ownership of the
+  employment-based immigration process — from initial assessment through
+  approval — across temporary work visas (E-2, E-3, H-1B, L-1A, L-1B, O-1A,
+  O-1B, TN) and employment-based green cards (EB-1A, EB-1B, EB-1C, EB-2 NIW,
+  EB-2 PERM, EB-3). For employers it offers a case-management platform with
+  real-time visibility, LCA/compliance tooling, spend forecasting, SSO, and
+  HRIS/ATS integrations (Workday, ADP, BambooHR, UKG, and more). Alma publishes
+  no public developer API; system integration is delivered through its
+  enterprise plan on SOC 2 Type II infrastructure. This profile was surfaced via
+  VC-portfolio discovery and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/alma/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67899ab4e6c7ecc71a7add09/67aa309974787a9771a7dbe8_graphurl-image.png
 x-type: company
 x-source: vc-portfolio
+x-sector: legaltech-immigration
 x-backed-by:
 - forerunner-ventures
-- insight-partners
+x-backed-by-note: >-
+  Forerunner is a confirmed investor in Alma (tryalma.com, immigration).
+  The original stub also listed insight-partners, but that is a mis-match with a
+  different company named Alma (helloalma.com, mental-health) that Insight backs;
+  removed to avoid a false portfolio edge.
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: identity-enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Health
+- Immigration
+- Legal
+- LegalTech
+- Visas
+- Global Mobility
+- Compliance
+- Immigration Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +59,38 @@ maintainers:
 common:
 - type: Website
   url: https://www.tryalma.com
+- type: About
+  url: https://www.tryalma.com/about-us
+- type: Blog
+  url: https://www.tryalma.com/blog
+- type: Pricing
+  url: https://www.tryalma.com/pricing
+- type: SignUp
+  url: https://www.tryalma.com/get-started
+- type: Login
+  url: https://app.tryalma.com/
+- type: Support
+  url: https://www.tryalma.com/contact-us
+- type: HelpCenter
+  url: https://www.tryalma.com/customer-hub
+- type: TermsOfService
+  url: https://www.tryalma.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.tryalma.com/privacy-policy
+- type: Careers
+  url: https://jobs.ashbyhq.com/tryalma
+- type: Partnerships
+  url: https://www.tryalma.com/partnerships
+- type: LLMsTxt
+  url: llms/alma-llms.txt
+- type: Compliance
+  url: https://www.tryalma.com/enterprise
+- type: Conformance
+  url: conformance/alma-conformance.yml
+- type: DomainSecurity
+  url: security/alma-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

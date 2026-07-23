@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.tryalma.com/llms.txt
+notes: >-
+  Alma is an attorney-led immigration law firm with a technology-enabled case
+  platform. It publishes no public developer API, OpenAPI, or standards-based
+  interface, so cross-cutting API standards (OAuth2/OIDC, RFC 9457, FHIR, etc.)
+  are not applicable. The one published, verifiable compliance posture is
+  enterprise data security (SOC 2 Type II + encryption), asserted on the
+  enterprise product page and the site llms.txt.
+standards:
+  - id: soc2-type-ii
+    conforms: true
+    evidence: >-
+      "SOC 2 Type II compliant infrastructure" listed under Enterprise
+      Capabilities on https://www.tryalma.com/enterprise and in
+      https://www.tryalma.com/llms.txt
+  - id: encryption-in-transit-and-at-rest
+    conforms: true
+    evidence: >-
+      "end-to-end encryption (in transit and at rest)" listed under Enterprise
+      Capabilities on https://www.tryalma.com/enterprise
+  - id: sso-saml
+    conforms: true
+    evidence: >-
+      "enterprise-grade Single Sign-On" and "role-based access and PII
+      protection" listed under Enterprise Capabilities / System Integration
+  - id: oauth2
+    conforms: false
+    evidence: no public OpenAPI or documented OAuth surface
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: no public API
+  - id: fhir-r4
+    conforms: false
+    evidence: employment-based immigration legaltech, not a healthcare data API
