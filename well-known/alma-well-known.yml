@@ -2,7 +2,12 @@ generated: '2026-07-18'
 method: probed
 source: live probe of /.well-known/* on the Alma marketing host
 host: https://www.tryalma.com
-documents:
+notes: No /.well-known discovery documents are published. The site does publish a root-level /llms.txt
+  (200, captured in llms/alma-llms.txt) but exposes no security.txt, OIDC/OAuth discovery, API catalog,
+  or AI plugin manifest.
+hosts:
+- host: https://www.tryalma.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -13,7 +18,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-notes: >-
-  No /.well-known discovery documents are published. The site does publish a
-  root-level /llms.txt (200, captured in llms/alma-llms.txt) but exposes no
-  security.txt, OIDC/OAuth discovery, API catalog, or AI plugin manifest.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
