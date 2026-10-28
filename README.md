@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Alma is a company surfaced as a portfolio company of forerunner-ventures, insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: health. This profile is a lead awaiting the enrichment pipeline.
+Alma is a technology-enabled U.S. immigration law firm for companies and individuals, combining licensed immigration attorneys with a platform that learns from every case it files. Alma takes end-to-end ownership of the employment-based immigration process — from initial assessment through approval — across temporary work visas (E-2, E-3, H-1B, L-1A, L-1B, O-1A, O-1B, TN) and employment-based green cards (EB-1A, EB-1B, EB-1C, EB-2 NIW, EB-2 PERM, EB-3). For employers it offers a case-management platform with real-time visibility, LCA/compliance tooling, spend forecasting, SSO, and HRIS/ATS integrations (Workday, ADP, BambooHR, UKG, and more). Alma publishes no public developer API; system integration is delivered through its enterprise plan on SOC 2 Type II infrastructure. This profile was surfaced via VC-portfolio discovery and enriched by the API Evangelist pipeline.
 
-Backed by: forerunner-ventures, insight-partners — https://www.tryalma.com
+**Areas:** Company · Immigration · Legal · Legal Tech · Visa · Global Mobility · Compliance · Immigration Software
+
+## Alma on APIs.io
+
+Everything profiled for Alma is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alma/](https://apis.io/providers/alma/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alma Domain Security](https://apis.io/security/alma/alma-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tryalma.com)
+- [Pricing](https://www.tryalma.com/pricing)
+- [Sign up](https://www.tryalma.com/get-started)
+- [Support](https://www.tryalma.com/contact-us)
+- [Blog](https://www.tryalma.com/blog)
+- [Compliance](https://www.tryalma.com/enterprise)
+- [Terms of service](https://www.tryalma.com/terms-of-service)
+- [Privacy policy](https://www.tryalma.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 20.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 52.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alma/](https://apis.io/providers/alma/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alma: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alma/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
